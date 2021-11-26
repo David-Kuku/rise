@@ -1,0 +1,123 @@
+.how_are_we_regulated{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.how_are_we_regulated_div1_inner1{
+    width: 25vw;
+    height: 250px;
+    background: #FFF4F0;
+    opacity: 0.9;
+    filter: blur(40px);
+    border-radius: 10%;
+}
+
+.how_are_we_regulated_div1_inner2{
+    width: 25vw;
+    height: 250px;
+    background: #F6E4F0;
+    mix-blend-mode: multiply;
+    opacity: 0.5;
+    filter: blur(40px);
+    border-radius: 10%;
+}
+
+.how_are_we_regulated_div2{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+}
+
+.how_are_we_regulated_div2_div{
+    width: 50%;
+}
+
+.how_are_we_regulated_div2_h3{
+    text-align: center;
+    font-family: Tomato Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #2D2D2D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.how_are_we_regulated_div2_p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #4A5050;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.how_are_we_regulated_div3_inner1{
+    width: 25vw;
+    height: 250px;
+    background: #F6F2FF;
+    mix-blend-mode: multiply;
+    filter: blur(40px);
+    border-radius: 10%;
+}
+
+.how_are_we_regulated_div3_inner2{
+    width: 25vw;
+    height: 250px;
+    background: #ECFEFE;
+    mix-blend-mode: multiply;
+    opacity: 0.9;
+    filter: blur(40px);
+    border-radius: 10%;
+}
+
+@media only screen and (max-width: 767px){
+    .how_are_we_regulated_div1{
+        width: 0%;
+    }
+    .how_are_we_regulated_div2{
+        width: 90%;
+    }
+    .how_are_we_regulated_div2_div{
+        width: 100%;
+    }
+
+    .how_are_we_regulated_div1_inner1{
+        width: 0%;
+        height: 150px;
+    }
+    .how_are_we_regulated_div1_inner2{
+        width: 0%;
+        height: 150px;
+    }
+    .how_are_we_regulated_div3_inner1{
+        width: 0%;
+        height: 150px;
+    }
+    .how_are_we_regulated_div3_inner2{
+        width: 0%;
+        height: 150px;
+    }
+    .how_are_we_regulated_div2_h3{
+        font-size: 25px;
+        margin: 0;
+    }
+    .how_are_we_regulated_div2_p{
+        /* font-size: 25px; */
+        margin: 0;
+    }
+}

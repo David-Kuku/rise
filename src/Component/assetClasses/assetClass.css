@@ -1,0 +1,46 @@
+.assetClasses_title{
+    text-align: center;
+    font-family: Tomato Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.05em;
+    color: #2D2D2D;
+    margin-bottom: 10px;
+    
+}
+
+.assetClasses_text{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #2D2D2D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 0;
+}
+
+.asset_classes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 800px){
+    .assets_container{
+      padding-left: 7vw;
+      padding-right: 7vw;
+    }
+  }
+  @media only screen and (min-width: 800px){
+    .assets_container{
+      padding-left: 13vw;
+      padding-right: 13vw;
+    }
+  }

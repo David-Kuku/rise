@@ -1,0 +1,102 @@
+.firstSection_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstSection_text{
+    width: 40%;
+}
+.firstSection_text_h3{
+    font-family: Tomato Grotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+    color: #07969E;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.firstSection_text_p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A5050;
+
+}
+
+
+.download_buttons{
+    display: flex;
+    
+}
+
+.download_buttons button{
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-top: 10px;
+}
+
+.supported_companies{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 800px){
+    .firstSection_container{
+      padding-left: 7vw;
+      padding-right: 7vw;
+    }
+  }
+@media only screen and (min-width: 800px){
+    .firstSection_container{
+      padding-left: 13vw;
+      padding-right: 13vw;
+    }
+  }
+
+
+
+@media only screen and (min-width: 768px){
+    .mobile_supported_companies{
+        display: none;
+    }
+  }
+
+
+@media only screen and (max-width: 767px){
+    .firstSection_container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .firstSection_text{
+        width: 100%;
+    }
+    .download_buttons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .firstSection_image{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .desktop_supported_companies{
+        display: none;
+    }
+  }
